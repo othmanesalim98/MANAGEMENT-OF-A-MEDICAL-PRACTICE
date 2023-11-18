@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="pageMaster.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 120px;
+        }
+        .style2
+        {
+            height: 109px;
+        }
+        .style3
+        {
+            font-size: xx-small;
+        }
+        .style4
+        {
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body style="height: 265px">
+    <form id="form1" runat="server">
+    <div>
+        <table style="width: 100%; height: 151px;">
+            <tr>
+                <td class="style4" colspan="2">
+                    Bienvenue
+                    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="style1" rowspan="2">
+                    <asp:Menu ID="Menu1" runat="server">
+                        <Items>
+                            <asp:MenuItem NavigateUrl="~/Acceuil.aspx" Text="Acceuil" Value="Acceuil">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Liste_commande.aspx" Text="Liste des commandes" 
+                                Value="Liste des commandes"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/ajouter_commande.aspx" Text="Ajouter commande" 
+                                Value="Ajouter commande"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/contenu_commande.aspx" Text="contenu commande" 
+                                Value="contenu commande"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                    <br />
+                    <asp:LinkButton ID="LinkButton1" runat="server" onclick="LinkButton1_Click">Déconnexion</asp:LinkButton>
+                </td>
+                <td class="style2">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="style3">
+                    TDI 201</td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

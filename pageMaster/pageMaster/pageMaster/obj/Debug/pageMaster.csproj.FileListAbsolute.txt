@@ -1,0 +1,9 @@
+c:\users\admin\documents\visual studio 2010\Projects\pageMaster\pageMaster\bin\pageMaster.dll
+c:\users\admin\documents\visual studio 2010\Projects\pageMaster\pageMaster\bin\pageMaster.pdb
+c:\users\admin\documents\visual studio 2010\Projects\pageMaster\pageMaster\obj\Debug\pageMaster.dll
+c:\users\admin\documents\visual studio 2010\Projects\pageMaster\pageMaster\obj\Debug\pageMaster.pdb
+C:\Users\Marou\Desktop\pageMaster\pageMaster\pageMaster\bin\pageMaster.dll
+C:\Users\Marou\Desktop\pageMaster\pageMaster\pageMaster\bin\pageMaster.pdb
+C:\Users\Marou\Desktop\pageMaster\pageMaster\pageMaster\obj\Debug\pageMaster.csprojResolveAssemblyReference.cache
+C:\Users\Marou\Desktop\pageMaster\pageMaster\pageMaster\obj\Debug\pageMaster.dll
+C:\Users\Marou\Desktop\pageMaster\pageMaster\pageMaster\obj\Debug\pageMaster.pdb
